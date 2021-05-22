@@ -1,0 +1,1 @@
+{"transform":{"include":[],"exclude":["Name"],"dropna":true,"drop_duplicates":true,"pipeline":true,"nums":["LOR","UniversityRating","GREScore","CGPA","SOP","TOEFLScore"],"cats":["Research"],"target_col":"Admitted"},"model":{"class":"LogisticRegression","params":{}}}
