@@ -1,1 +1,1 @@
-{"transform":{"include":[],"exclude":["Name"],"dropna":true,"drop_duplicates":true,"pipeline":true,"nums":["LOR","UniversityRating","GREScore","CGPA","SOP","TOEFLScore"],"cats":["Research"],"target_col":"Admitted"},"model":{"class":"LogisticRegression","params":{}}}
+{"transform":{"include":[],"exclude":["Name"],"dropna":true,"drop_duplicates":true,"pipeline":true,"nums":["LOR","TOEFLScore","CGPA","SOP","GREScore","UniversityRating"],"cats":["Research"],"target_col":"Admitted"},"model":{"class":"LogisticRegression","params":{}}}
